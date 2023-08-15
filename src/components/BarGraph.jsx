@@ -128,6 +128,7 @@ const BarGraph = ({ isDashboard = false }) => {
       barAriaLabel={function (e) {
         return e.id + ": " + e.formattedValue + " in country: " + e.indexValue;
       }}
+      animate={false}
     />
   );
 };

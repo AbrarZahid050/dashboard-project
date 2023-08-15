@@ -83,6 +83,7 @@ const GeographyChart = ({ isDashboard = false }) => {
             ]
           : undefined
       }
+      animate={false}
     />
   );
 };

@@ -1,10 +1,16 @@
 import { useState } from "react";
+// proSidebar-imports:
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
-import { Box, IconButton, Typography, useTheme } from "@mui/material";
-import { Link } from "react-router-dom";
 import "react-pro-sidebar/dist/css/styles.css";
+// material-ui imports:
+import { Box, IconButton, Typography, useTheme } from "@mui/material";
+// react-router import:
+import { Link } from "react-router-dom";
+// custom-color tokens import:
 import { tokens } from "../../theme";
-import pic from "../../assets/user.png";
+// profile-picture import:
+import pic from "../../assets/user2.jpeg";
+// material-icons imports:
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
@@ -108,10 +114,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Ed Roh
+                  Abrar Zahid
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                  Developer
                 </Typography>
               </Box>
             </Box>

@@ -1,6 +1,10 @@
-import { ColorModeContext, useMode } from "./theme";
+// material-ui import:
 import { CssBaseline, ThemeProvider } from "@mui/material";
+// import from theme.js:
+import { ColorModeContext, useMode } from "./theme";
+// react-router imports:
 import { Route, Routes } from "react-router-dom";
+// custom components:
 import Topbar from "./scenes/global/Topbar";
 import MenuBar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard/Dashboard";

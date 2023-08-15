@@ -1,6 +1,8 @@
+// color tokens import:
+import { tokens } from "../../theme";
+// material-ui imports:
 import { Box, useTheme, Button, Typography, IconButton } from "@mui/material";
-import Header from "../../components/Header";
-import { mockTransactions } from "../../data/mockdata";
+// material-icons imports:
 import {
   DownloadOutlined,
   Email,
@@ -8,12 +10,15 @@ import {
   PersonAdd,
   Traffic,
 } from "@mui/icons-material";
+// custom imports:
+import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
 import BarGraph from "../../components/BarGraph";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
-import { tokens } from "../../theme";
+// mock data for transaction component:
+import { mockTransactions } from "../../data/mockdata";
 
 const Dashboard = () => {
   const theme = useTheme();
